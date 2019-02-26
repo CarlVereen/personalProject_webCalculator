@@ -1,0 +1,19 @@
+﻿HTML layout for calculator
+
+
+Top to bottom design
+
+
+Needs:
+1. A container / frame to contain the calculator (blue body of calculator image)
+2. A display element to display calculated results
+3. A solar panel for nostalgia only half width of the body
+4. 12 buttons for calculator functions (ie: equals, memory, percentage …)
+5. 11 buttons for calculator characters (ie: 1, 2, 3, . …)
+
+
+Wants:
+1. Shading to make it more of a 3d image on the page
+2. Sections for each of the main parts above (display, solar, calculator buttons)
+3. Fun text to make it look like a 1990’s calculator
+4.
