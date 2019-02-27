@@ -1,0 +1,218 @@
+/*====================Main wrapper=====================*/
+body {
+  display: flex;
+  height: 100vh;
+}
+#main-wrapper {
+  display: flex;
+  margin: auto;
+}
+
+* {
+
+}
+
+/*===============Calculator============================*/
+
+#calc-body {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border: solid 2px black;
+  background-color: rgba(44, 130, 201, 1);
+  padding-bottom: 1rem;
+  border-radius: 0.75rem;
+}
+
+#calc-display {
+  display: flex;
+  border: solid 2px rgba(46, 49, 49, 1);
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 2.5rem;
+  flex-direction: row-reverse;
+  align-content: center;
+  border-radius: 0.25rem;
+  background-color: rgba(238, 238, 238, 0.80);
+}
+#calc-display h2 {
+  justify-self: center;
+  align-self: center;
+}
+
+#calc-solar {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-bottom: 0.45rem;
+  margin-left: 2%;
+  margin-right: 65%;
+  height: 1.5rem;
+
+}
+
+#calc-solar ul {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  border: solid 2px rgba(46, 49, 49, 1);
+  border-radius: 0.25rem;
+
+}
+
+#calc-solar ul li {
+  width: 2rem;
+  background-image: linear-gradient(90deg, rgba(46, 49, 49, 1), rgba(108, 122, 137, 1));
+}
+
+hr {
+  color: rgba(108, 122, 137, 1);
+  border: solid 0.10rem rgba(108, 122, 137, 1);
+  margin-bottom: 0.55rem;
+}
+
+#calc-buttons-container {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 10% 24%;
+  grid-template-rows: auto;
+  grid-template-areas:
+      "neg root perc non divi"
+      "mrc mPlus mMinus non timesX"
+      "seven eight nine non minus"
+      "four five six non plus"
+      "one two three non equal"
+      "onc zeroNum period non equal";
+  width: 95%;
+  padding: 0.25rem;
+  border-radius: 0.55rem;
+  border: solid 0.10rem rgba(108, 122, 137, 1);
+  margin: auto;
+
+}
+
+.calc-program, .calc-character {
+  display: flex;
+  border: solid 2px rgba(46, 49, 49, 1);
+  width: 15vw;
+  height: 5vh;
+  border-radius: 0.25rem;
+  margin: 0.15rem 0.15rem;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0.10rem 0.15rem 0.05rem rgba(125, 145, 155, 1);
+}
+
+.calc-program:active {
+  box-shadow: 0.10rem 0.15rem 0.05rem rgba(105, 125, 135, 1);
+  transform: translateY(4px);
+}
+
+.calc-character:active {
+  box-shadow: 0.10rem 0.15rem 0.05rem rgba(105, 125, 135, 1);
+  transform: translateY(4px);
+}
+
+.calc-program {
+  background-color: rgba(217, 30, 24, 0.75);
+  color: white;
+}
+
+.calc-character {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+
+#neg {
+  grid-area: neg;
+}
+
+#root {
+  grid-area: root;
+}
+
+#perc {
+  grid-area: perc;
+}
+
+#divi {
+  grid-area: divi;
+}
+
+#mrc {
+  grid-area: mrc;
+}
+
+#m-minus {
+ grid-area: mMinus;
+}
+
+#m-plus {
+  grid-area: mPlus;
+}
+
+#timesX {
+  grid-area: timesX;
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#minus {
+  grid-area: minus;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+
+#six {
+  grid-area: six;
+}
+#plus {
+  grid-area: plus;
+}
+
+#one{
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+
+#equal {
+  grid-area: equal;
+  height: 11vh;
+}
+
+#onc {
+  grid-area: onc;
+}
+
+#zeroNum {
+  grid-area: zeroNum;
+}
+
+#period {
+  grid-area: period;
+}

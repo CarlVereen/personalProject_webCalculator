@@ -7,7 +7,7 @@ Version 1 scope and guidelines:
 --Problem statement: Create a basic (addition, subtraction, multiplication, and division) (non-scientific) calculator that can be used in the following browsers. All functions of the calculator will be from basic input of mouse.
 
 --Steps to provide a solution:
-    1. draw a basic calculator
+    1. draw a basic calculator (see basicCalculator.jpeg in assets/images)
     2. translate drawing to html elements
     3. design website with CSS matching original drawing
         1. mobile first design methodology
