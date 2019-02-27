@@ -10,7 +10,7 @@ Version 1 scope and guidelines:
     1. draw a basic calculator (see basicCalculator.jpeg in assets/images)
     2. translate drawing to html elements
     3. design website with CSS matching original drawing
-        1. mobile first design methodology
+        1. mobile first design methodology -- After reviewing responsive design it was determined best to go with a fixed design at all screen dimensions. This kept the calculator looking the best.
         2. use flex box and grid properties
         3. validate brower display
     4. design Javascript functionality
