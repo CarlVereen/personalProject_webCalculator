@@ -8,8 +8,8 @@ body {
   margin: auto;
 }
 
-* {
-
+.disable-double-tap {
+  touch-action: manipulate;
 }
 
 /*===============Calculator============================*/
@@ -87,8 +87,8 @@ hr {
       "mrc mPlus mMinus non timesX"
       "seven eight nine non minus"
       "four five six non plus"
-      "one two three non equal"
-      "onc zeroNum period non equal";
+      "one two three non Enter"
+      "onc zeroNum period non Enter";
   width: 95%;
   padding: 4px;
   border-radius: 10px;
@@ -210,8 +210,8 @@ hr {
   grid-area: three;
 }
 
-#equal {
-  grid-area: equal;
+#Enter {
+  grid-area: Enter;
   height: 99px;
 }
 
